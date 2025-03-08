@@ -6,19 +6,19 @@ const session = process.env.SESSION || 'eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUi
 
 const prefix = process.env.PREFIX || '';
 const mycode = process.env.CODE || "254";
-const author = process.env.OWNER_NAME || 'Keith';
-const packname = process.env.PACKNAME || 'keith';
+const author = process.env.OWNER_NAME || '꧁ঔ☬۝𝐙𝐀𝐘𝐀𝐍𝐅𝐎𝐔𝐑𝐅𝐈𝐍𝐆𝐄𝐑𝐒۝☬ঔ꧂';
+const packname = process.env.PACKNAME || '꧁ঔ☬۝𝐙𝐀𝐘𝐀𝐍𝐅𝐎𝐔𝐑𝐅𝐈𝐍𝐆𝐄𝐑𝐒۝☬ঔ꧂';
 const dev = process.env.OWNER_NUMBER || '254748387615';
 const DevKeith = dev.split(",");
-const botname = process.env.BOTNAME || 'KEITH-MD';
+const botname = process.env.BOTNAME || '꧁ঔ☬۝𝐙𝐀𝐘𝐀𝐍𝐅𝐎𝐔𝐑𝐅𝐈𝐍𝐆𝐄𝐑𝐒۝☬ঔ꧂';
 const mode = process.env.MODE || 'public';
-const gcpresence = process.env.GC_PRESENCE || 'false';
+const gcpresence = process.env.GC_PRESENCE || 'true';
 const antionce = process.env.ANTIVIEWONCE || 'true';
 const sessionName = "session";
 const presence = process.env.WA_PRESENCE || 'online';
 const herokuapikey = process.env.HEROKU_API_KEY || '';
 const herokuAppname = process.env.HEROKU_APP_NAME || '';
-const url = process.env.URL || 'https://files.catbox.moe/mikdi0.jpg';
+const url = process.env.URL || 'https://files.catbox.moe/ax92lq.jpg';
 const gurl = process.env.GURL || 'https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47';
 const reactemoji = process.env.EMOJI || '💚';
 const antitag = process.env.ANTITAG || 'true';
@@ -30,7 +30,7 @@ const autolike = process.env.AUTOLIKE_STATUS || 'true';
 const timezone = process.env.TIMEZONE || 'Africa/Nairobi';
 const autoread = process.env.AUTOREAD || 'true';
 const anticallmsg = process.env.ANTICALL_MSG || 'Keith declined your 🤙 call';
-const autobio = process.env.AUTOBIO || 'false';
+const autobio = process.env.AUTOBIO || 'true';
 
 module.exports = {
   sessionName,

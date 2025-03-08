@@ -3,22 +3,22 @@ module.exports = async (context) => {
 
   // Sound file URLs
   const audioFiles = [
-    'https://files.catbox.moe/hpwsi2.mp3',
-    'https://files.catbox.moe/xci982.mp3',
-    'https://files.catbox.moe/utbujd.mp3',
-    'https://files.catbox.moe/w2j17k.m4a',
-    'https://files.catbox.moe/851skv.m4a',
-    'https://files.catbox.moe/qnhtbu.m4a',
-    'https://files.catbox.moe/lb0x7w.mp3',
-    'https://files.catbox.moe/efmcxm.mp3',
-    'https://files.catbox.moe/gco5bq.mp3',
-    'https://files.catbox.moe/26oeeh.mp3',
-    'https://files.catbox.moe/a1sh4u.mp3',
-    'https://files.catbox.moe/vuuvwn.m4a',
-    'https://files.catbox.moe/wx8q6h.mp3',
-    'https://files.catbox.moe/uj8fps.m4a',
-    'https://files.catbox.moe/dc88bx.m4a',
-    'https://files.catbox.moe/tn32z0.m4a'
+    'https://files.catbox.moe/4vctb8.mp3',
+    'https://files.catbox.moe/g8fgcd.mp3',
+    'https://files.catbox.moe/eyrksh.mp3',
+    'https://files.catbox.moe/bx3vyl.mp3',
+    'https://files.catbox.moe/6wbks9.mp3',
+    'https://files.catbox.moe/g62ba2.mp3',
+    'https://files.catbox.moe/sbnckg.mp3',
+    'https://files.catbox.moe/g8fgcd.mp3',
+    'https://files.catbox.moe/ucnkcy.mp3',
+    'https://files.catbox.moe/mfqjgy.mp3',
+    '',
+    '',
+    '',
+    '',
+    '',
+    ''
   ];
 
   // Randomly pick an audio file
@@ -28,12 +28,12 @@ module.exports = async (context) => {
   const name = m.pushName || client.getName(m.sender);
   const url = 'https://github.com/Keithkeizzah/KEITH-MD2';
   const murl = 'https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47';
-  const img = 'https://i.imgur.com/vTs9acV.jpeg';
+  const img = 'https://files.catbox.moe/ax92lq.jpg';
 
   // Constructing the contact message
   const con = {
     key: {
-      fromMe: false,
+      fromMe: true,
       participant: `${m.sender.split('@')[0]}@s.whatsapp.net`,
       ...(m.chat ? { remoteJid: '254748387615@s.whatsapp.net' } : {}),
     },
@@ -57,7 +57,7 @@ module.exports = async (context) => {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: '𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘 𝗠𝗢𝗧𝗛𝗘𝗥𝗙𝗨𝗖𝗞𝗘𝗥',
+        title: '𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘 ꧁ঔ☬۝𝐅𝐎𝐔𝐑𝐅𝐈𝐍𝐆𝐄𝐑𝐒۝☬ঔ꧂',
         body: 'Regards Keithkeizzah',
         thumbnailUrl: img,
         sourceUrl: murl,

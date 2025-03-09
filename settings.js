@@ -42,7 +42,6 @@ module.exports = {
   autobio,
   antilink: groupControl,  // Use groupControl for antilink
   antibad: groupControl,   // Use groupControl for antibad
-  
   mode,
   prefix,
   anticall,

@@ -40,8 +40,8 @@ module.exports = {
   botname,
   reactemoji,
   autobio,
-  antilink: groupControl,  // Use groupControl for antilink
-  antibad: groupControl,   // Use groupControl for antibad
+  antilink:groupControl,  // Use groupControl for antilink
+  antibad:groupControl,   // Use groupControl for antibad
   mode,
   prefix,
   anticall,
@@ -60,5 +60,4 @@ module.exports = {
   antionce,
   session,
   antitag,
-  antidelete
-};
+  antidelete };
